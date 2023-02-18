@@ -1,7 +1,6 @@
-*******************************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
-#include "Sensor.h"
+#include "Sender.h"
 
 int create_sensor1_data() 
 {
