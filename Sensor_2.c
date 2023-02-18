@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define NUMBER_OF_READINGS    50
-int create_sensor2_data();
+#include "Sensor.h"
 
 int create_sensor2_data() 
 {
