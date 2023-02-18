@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Sensor.h"
+#include "Sender.h"
 
 int main(){
     int sensorData1,sensorData2;
