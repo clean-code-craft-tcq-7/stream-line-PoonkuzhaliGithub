@@ -2,8 +2,6 @@
 
 #define NUMBER_OF_READINGS    50
 
-char str[3];
-
 int create_sensor1_data();
 int create_sensor2_data();
 int PrintSensorData1();
