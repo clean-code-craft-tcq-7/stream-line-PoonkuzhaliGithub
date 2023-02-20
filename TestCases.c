@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "Sensor.h"
+#include "Sender.h"
 #include <assert.h>
 
 void TEST_CASE_01();
