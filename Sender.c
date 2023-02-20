@@ -14,7 +14,8 @@ int ConvertData2(int convertedData2)
     sscanf(str,"%d\n",&convertedData2);
     return convertedData2;
 }
-int SendSensorData()
+
+void SendSensorData()
 {
    int data1, data2;
    data1 = PrintSensorData1();
