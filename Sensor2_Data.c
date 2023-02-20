@@ -18,6 +18,7 @@ int create_sensor2_data()
 
 int PrintSensorData2()
 {
+  int sensor2Data;
   FILE *fp2;
   create_sensor2_data();
   fp2 = fopen("sensor_2.txt","r+");
