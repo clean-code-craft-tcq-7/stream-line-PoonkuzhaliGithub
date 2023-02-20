@@ -4,7 +4,7 @@
 
 int create_sensor1_data() 
 {
-  int sensorData;
+  int i, sensorData;
   FILE *fp;
   fp = fopen("sensor_1.txt","w+");
   for(i=0;i<NUMBER_OF_READINGS;i++)
