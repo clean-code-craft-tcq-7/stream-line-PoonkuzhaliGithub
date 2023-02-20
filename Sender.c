@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "Sender.h"
+char str[3];
 
 int ConvertData1(int convertedData1)
 {
@@ -10,7 +11,6 @@ int ConvertData1(int convertedData1)
 
 int ConvertData2(int convertedData2)
 {
-    char str[3];
     sprintf(str,"%d\n",convertedData2);
     sscanf(str,"%d\n",&convertedData2);
     return convertedData2;
