@@ -12,4 +12,4 @@ int PrintSensorData1();
 int PrintSensorData2();
 int ConvertData1(int convertedData1);
 int ConvertData2(int convertedData2);
-int SendSensorData();
+void SendSensorData();
