@@ -26,9 +26,7 @@ int PrintSensorData1()
   for(;(!feof(fp1));)
   {
     fscanf(fp1,"%d\n",&sensor1Data);     
-    printf("%d\n",sensor1Data);
-    sprintf(str,"%d\n",sensor1Data);
-    sscanf(str,"%d\n",&sensor1Data);       
+    printf("%d\n",sensor1Data);     
   }
   fclose(fp1);  
   return sensor1Data;
