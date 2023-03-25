@@ -2,22 +2,10 @@
 #include <stdlib.h>
 #define NUMBER_OF_READINGS   50
 
-int create_sensor1_data();
+
 int ReadSensorData1();
 
-int create_sensor1_data()
-{
-  int i, sensorData;
-  FILE *fp;
-  fp = fopen("sensor_1.txt","w+");
-  for(i=0;i<NUMBER_OF_READINGS;i++)
-  {
-    sensorData=rand();
-    fprintf(fp,"%d\n",sensorData);
-  }
-  fclose(fp);
-  return 0;
-}
+
 
 int ReadSensorData1()
 {
