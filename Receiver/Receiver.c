@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "Sender.h"
+
 #define NUMBER_OF_READINGS   50
 
-
 int ReadSensorData1();
-
-
 
 int ReadSensorData1()
 {
